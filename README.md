@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szukacz Słuchawek SondejM</title>
+    
+    <!-- TUTAJ WKLEJ TE DWIE LINIJKI: -->
+    <link rel="manifest" href="manifest.json">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
+</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SondejM - Lokalizator Słuchawek</title>
