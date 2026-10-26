@@ -1,0 +1,20 @@
+{
+  "background_color": "#653939",
+  "description": "znajdź swoje zaginione pchełki",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "szukacz-sluchawek",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "szukacz-sluchawek",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "SondejM",
+  "lang": "pl"
+"icons": [
+    {
+      "src": "TUTAJ_WPISZ_DOKŁADNĄ_NAZWĘ_PLIKU.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+}
