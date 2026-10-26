@@ -1,0 +1,24 @@
+{
+  "background_color": "#aa3333",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Szukacz słuchawek",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "SondejM",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "share_target": {
+    "method": "GET",
+    "action": "https://sondejm-source.github.io/szukacz-sluchawek/",
+    "params": {
+      "title": "bbb"
+    }
+  },
+  "categories": [
+    "music",
+    "utilities"
+  ],
+  "description": "aaa",
+  "lang": "pl"
+}
