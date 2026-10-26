@@ -22,7 +22,6 @@
   "description": "aaa",
   "lang": "pl"
 "icons": [
-    {
       "src": "launchericon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
