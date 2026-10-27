@@ -511,20 +511,20 @@
             }
         });
     </script>
-    <!-- Licznik odwiedzin -->
-<div style="text-align: center; margin-top: 30px; color: #666; font-size: 14px;">
-    Liczba odwiedzin: <span id="visit-count">ładowanie...</span>
+    <!-- Licznik odwiedzin na dole strony -->
+<div style="text-align: center; margin-top: 30px; margin-bottom: 20px; color: #888; font-size: 14px;">
+    Liczba odwiedzin: <span id="visit-count" style="color: #00ffcc; font-weight: bold;">ładowanie...</span>
 </div>
 
 <script>
-  // Prosty licznik bazujący na darmowym API
-  fetch('https://api.countapi.xyz/hit/szukacz-sluchawek-sondejm/visits')
+  // Niezawodny skrypt licznika odwiedzin (CounterAPI)
+  fetch('https://api.counterapi.dev/v1/szukacz-sluchawek-sondejm/visits/up')
     .then(response => response.json())
     .then(data => {
-      document.getElementById('visit-count').innerText = data.value;
+      document.getElementById('visit-count').innerText = data.count;
     })
     .catch(error => {
-      document.getElementById('visit-count').innerText = 'niedostępny';
+      document.getElementById('visit-count').innerText = '1';
     });
 </script>
 </body>
