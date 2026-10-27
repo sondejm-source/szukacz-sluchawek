@@ -5,6 +5,7 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#e53935",
+  "description": "Aplikacja do lokalizowania słuchawek Bluetooth",
   "icons": [
     {
       "src": "icon-512.png",
