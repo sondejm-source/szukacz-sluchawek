@@ -1,0 +1,19 @@
+{
+  "name": "Szukacz Słuchawek SondejM",
+  "short_name": "SondejM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e53935",
+  "description": "Aplikacja do lokalizowania słuchawek Bluetooth",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "pl",
+  "orientation": "portrait"
+}
