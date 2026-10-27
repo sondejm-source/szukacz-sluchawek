@@ -1,6 +1,6 @@
 {
   "name": "Szukacz Słuchawek SondejM",
-  "short_name": "SondejM",
+  "short_name": "Gdzie moje pchełki",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
