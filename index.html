@@ -511,17 +511,19 @@
             }
         });
     </script>
-    <!-- Licznik odwiedzin na dole strony -->
+   <!-- Licznik odwiedzin na dole strony -->
 <div style="text-align: center; margin-top: 30px; margin-bottom: 20px; color: #888; font-size: 14px;">
     Liczba odwiedzin: <span id="visit-count" style="color: #00ffcc; font-weight: bold;">ładowanie...</span>
 </div>
 
 <script>
-  // Niezawodny skrypt licznika odwiedzin (CounterAPI)
+  // Bardziej odporny skrypt licznika
   fetch('https://api.counterapi.dev/v1/szukacz-sluchawek-sondejm/visits/up')
     .then(response => response.json())
     .then(data => {
-      document.getElementById('visit-count').innerText = data.count;
+      // Obsługuje zarówno .count jak i bezpośrednią wartość
+      const visits = data.count !== undefined ? data.count : (data.value !== undefined ? data.value : 1);
+      document.getElementById('visit-count').innerText = visits;
     })
     .catch(error => {
       document.getElementById('visit-count').innerText = '1';
