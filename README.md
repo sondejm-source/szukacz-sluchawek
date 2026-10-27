@@ -5,6 +5,8 @@ Lekka, szybka i w 100% responsywna aplikacja webowa typu PWA (Progressive Web Ap
 
 🔗 **Wypróbuj online (Live Demo):** [Link do GitHub Pages](https://sondejm-source.github.io/szukacz-sluchawek/)
 
+![Zrzut ekranu](screenshots/Screenshot_20261027_031546_Chrome.gif)
+
 ---
 
 ## ✨ Główne funkcje
