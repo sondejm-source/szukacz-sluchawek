@@ -511,4 +511,20 @@
             }
         });
     </script>
+    <!-- Licznik odwiedzin -->
+<div style="text-align: center; margin-top: 30px; color: #666; font-size: 14px;">
+    Liczba odwiedzin: <span id="visit-count">ładowanie...</span>
+</div>
+
+<script>
+  // Prosty licznik bazujący na darmowym API
+  fetch('https://api.countapi.xyz/hit/szukacz-sluchawek-sondejm/visits')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('visit-count').innerText = data.value;
+    })
+    .catch(error => {
+      document.getElementById('visit-count').innerText = 'niedostępny';
+    });
+</script>
 </body>
