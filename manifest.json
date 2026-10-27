@@ -1,29 +1,16 @@
 {
-  "background_color": "#aa3333",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "Szukacz słuchawek",
-  "orientation": "any",
-  "scope": "/",
+  "name": "Szukacz Słuchawek SondejM",
   "short_name": "SondejM",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "share_target": {
-    "method": "GET",
-    "action": "https://sondejm-source.github.io/szukacz-sluchawek/",
-    "params": {
-      "title": "bbb"
-    }
-  },
-  "categories": [
-    "music",
-    "utilities"
-  ],
-  "description": "aaa",
-  "lang": "pl",
-"icons": [
-      "src": "launchericon-512x512.png",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e53935",
+  "icons": [
+    {
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
   ]
+}
